@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../../css/enroll.css">
+    <script type="text/javascript" src="../../js/demo.js"></script>
+</head>
+<body>
+<div id="header">
+
+</div>
+
+<div id="context">
+    <div id="div_enroll">
+        <h2>用户注册</h2>
+        <form action="login.html" method="get">
+            <div class="div_input" id="div_number">
+                <label for="userNumber">账号：</label>
+                <input type="text" id="userNumber" placeholder="请输入账号">
+            </div>
+            <span id="TisNumber">请您输入账号</span>
+            <div class="div_input">
+                <label for="userPassword">密码：</label>
+                <input type="password" id="userPassword" placeholder="请输入密码">
+            </div>
+            <span id="TisPassword">请您输入密码</span>
+            <div class="div_input">
+                <label for="rePassword">密码：</label>
+                <input type="password" id="rePassword" placeholder="重复输入密码">
+                <br>
+            </div>
+            <div class="div_input">
+                <label for="userPhone">电话：</label>
+                <input type="number" id="userPhone" placeholder="请输入电话号码">
+                <br>
+            </div>
+            <div class="div_input">
+                <label for="userBirth">生日：</label>
+                <input type="datetime-local" id="userBirth" >
+                <br>
+            </div>
+
+            <div class="div_button">
+                <input type="reset" value="重置" id="reset">
+            </div>
+
+            <div class="div_button">
+                <input type="submit" value="注册" onclick="return register()" id="enroll">
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div id="footer">
+
+</div>
+</body>
+</html>

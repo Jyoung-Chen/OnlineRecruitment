@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>嘎嘎嘎</title>
+    <link rel="stylesheet" type="text/css" href="../../css/home.css">
+    <script src="../../js/home.js"></script>
+</head>
+
+<body>
+<div id="header">
+    <h2 ><a href="home.html">人才招聘系统后台管理</a></h2>
+    <div id="headerMenu">
+        <p><strong>欢迎你，</strong> 陈泽阳 <strong>/ </strong></p>
+        <a href="login.html">注销登录</a>
+       <!-- <form action="LoginServlet" method="get"><input type="submit" value="注销登录"></form>-->
+    </div>
+</div>
+<div id="content">
+    <div id="aside">
+        <div id="qiye">
+            <h2 onclick="sf()">企业管理</h2>
+            <div id="qiye1">
+                <ul>
+                    <li>
+                        <a href="enroll.html" target="myiframe">新增企业</a>
+                    </li>
+                    <li>
+                        <a href="login.html" target="myiframe">企业查询</a>
+                    </li>
+                    <li>
+                        <a href="login.html" target="myiframe">删除企业</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <h2>岗位管理</h2>
+        <div>
+            <ul>
+                <li><a href="#">新增岗位</a></li>
+                <li><a href="#">岗位查询</a></li>
+                <li><a href="#">删除岗位</a></li>
+            </ul>
+        </div>
+        <br>
+        <h2>用户管理</h2>
+        <div>
+            <ul>
+                <li><a href="#">用户查询</a></li>
+                <li><a href="#">新增用户</a></li>
+                <li><a href="#">删除用户</a></li>
+            </ul>
+        </div>
+        <br>
+        <h2>系统管理</h2>
+        <div>
+            <ul>
+                <li><a href="#">新增管理员</a></li>
+                <li><a href="#">管理员查询</a></li>
+                <li><a href="#">修改密码</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="section" >
+        <iframe src="welcome.html" id="frame"name="myiframe"></iframe>
+    </div>
+</div>
+
+</body>
+</html>

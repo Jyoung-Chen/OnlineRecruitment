@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebProject">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebProject</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/jar/jstl.jar" />
+          <element id="file-copy" path="D:/jar/standard.jar" />
+          <element id="file-copy" path="D:/jar/sqljdbc42.jar" />
+          <element id="file-copy" path="D:/jar/gson-2.8.0.jar" />
+          <element id="file-copy" path="D:/jar/fastjson-1.2.62.jar" />
+          <element id="file-copy" path="D:/jar/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="D:/jar/mysql-connector-java-8.0.18.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

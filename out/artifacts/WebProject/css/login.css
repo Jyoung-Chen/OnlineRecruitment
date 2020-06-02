@@ -1,0 +1,118 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei UI";
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 944px;
+}
+
+#header{
+    width: 100%;
+    height: 150px;
+    background-color: #222222;
+    text-align: center;
+}
+#header h2{
+    color: #00aa88;
+    font-size: 50px;
+    line-height: 150px;
+    cursor: pointer;
+}
+#context{
+    width: 100%;
+    height: 738px;
+}
+#backGround{
+    width: 100%;
+    height: 738px;
+    position: absolute;
+}
+#backGround img {
+    width: 100%;
+    height: 738px;
+    position: absolute;
+}
+#backColor{
+    width: 100%;
+    height: 738px;
+    background-color: #000000;
+    opacity: 0.4;
+}
+#Login{
+    width: 100%;
+    height: 738px;
+    position: absolute;
+}
+
+#div_login{
+    width: 600px;
+    height: 550px;
+    margin: 84px auto;
+    border-radius: 20px;
+    border:solid 2px #999999;
+    text-align: center;
+}
+#div_login h2{
+    color: #00aa88;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+#div_login .div_input{
+    background:none;
+    border: solid 1px #aaaaaa;
+    height: 30px;
+    border-radius: 5px;
+    margin: auto auto 50px auto;
+    width: 300px;
+}
+#div_login .div_input:hover{
+    border: solid 1px #00aa88;
+}
+
+#div_login label,#AdminNumber,#AdminPassword{
+    color: #bbbbbb;
+    font-size: 22px;
+    width: 70%;
+    border: none;
+    outline: none;
+    background:none;
+}
+#bt_login{
+    width: 250px;
+    height: 30px;
+    background-color: #009977;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    outline: none;
+    font-size: 15px;
+}
+#bt_login:hover{
+    background-color: #dd5577;
+}
+#bt_login:active{
+    font-size: 12px;
+}
+#div_login a{
+    text-decoration: none;
+    color: white;
+    margin-top: 66px;
+}
+
+#footer{
+    width: 100%;
+    height:56px;
+    color: white;
+    text-align: center;
+    line-height: 56px;
+    background-color: #222222;
+    font-size: 12px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../css/login.css">
+    <script src="../../js/login.js"></script>
+
+</head>
+<body>
+<a href=>
+
+<div id="header">
+    <h2>爱我中华招聘系统管理员登录</h2>
+</div>
+
+<div id="context" onload="ff()">
+    <div id="backGround">
+        <img src="../../image/enroll/2001.jpg" id="image1">
+        <img src="../../image/login/1000.jpg" id="image2">
+        <div id="backColor"></div>
+    </div>
+    <div id="Login">
+
+        <div id="div_login">
+            <h2>Hi, 亲爱的管理员</h2>
+            <form action="../../../LoginServlet" method="post">
+                <div class="div_input">
+                    <label for="AdminNumber">账号：</label>
+                    <input type="text" name="AdminNumber" id="AdminNumber" placeholder="请输入账号">
+                    <br>
+                </div>
+                <div class="div_input">
+                    <label for="AdminPassword">密码：</label>
+                    <input type="password" name="AdminPassword" id="AdminPassword" placeholder="请输入密码">
+                </div>
+                <input type="submit" id="bt_login" value="立即登录">
+                <br>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    Copyright © 2019 jmcy chenzeyang
+</div>
+</body>
+</html>

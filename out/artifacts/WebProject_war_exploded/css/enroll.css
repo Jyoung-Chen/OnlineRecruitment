@@ -1,0 +1,157 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei UI";
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 944px;
+}
+
+#backImage{
+     width: 100%;
+     height: 944px;
+     position: absolute;
+     filter: blur(50px);
+}
+#backColor{
+    width: 100%;
+    height: 944px;
+    position: absolute;
+    background-color: #0C0C0C;
+    opacity: 0.5;
+}
+#body{
+    width: 100%;
+    height: 944px;
+    position: absolute;
+}
+#header{
+    width: 100%;
+    height: 120px;
+    background: none;
+    text-align: center;
+    line-height: 118px;
+}
+
+#header h2{
+    color: #00aa88;
+    font-size: 40px;
+}
+#header .cut{
+    width: 80%;
+    height: 2px;
+    background-color: #EEEEEE;
+    margin: auto;
+    opacity: 0.3;
+}
+#context{
+    width: 100%;
+    height: 760px;
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    width: 100%;
+    height: 64px;
+    color: #222222;
+    text-align: center;
+    line-height: 63px;
+    font-size: 15px;
+}
+#footer .cut{
+    width: 60%;
+    height: 1px;
+    background-color: #666666;
+    margin: auto;
+    opacity: 0.4;
+}
+/*
+
+#div_enroll{
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    min-width: 600px;
+
+    border-radius: 20px;
+    border: solid 2px #aaaaaa;
+    text-align: center;
+}
+#div_enroll h2{
+    font-size: 40px;
+    color: #88bbee;
+    margin-top: 20px;
+}
+#div_enroll .div_input{
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px auto 20px auto;
+    width: 300px;
+    border: solid 1px #aaaaaa;
+}
+#TisNumber,#TisPassword{
+    color: red;
+    display: none;
+}
+!*谷歌浏览器去input[number]的加减按键*!
+#userPhone::-webkit-outer-spin-button,#userPhone::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+
+}
+!*火狐浏览器去input[number]的加减按键*!
+#userPhone{
+    -moz-appearance:textfield;
+}
+
+
+#div_enroll label,input{
+    color: gray;
+    font-size: 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+
+}
+#div_enroll .div_button input{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    background:none;
+    border: solid 2px #aaaaaa;
+    margin: auto 15% auto 15%;
+}
+#reset{
+    float: left;
+}
+#enroll{
+    float: right;
+}
+
+
+#footer{
+    width: 100%;
+    height: 64px;
+    color: white;
+    text-align: center;
+    line-height: 64px;
+    background-color: #222222;
+    font-size: 12px;
+}*/

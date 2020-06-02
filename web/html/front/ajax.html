@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <input type="button" value="点击一下你就知道" onclick="req()">
+
+    <div id="div_content"></div>
+</body>
+
+<script>
+
+    function createXHR() {
+        if(typeof XMLHttpRequest!='undefined')
+        {
+            return new XMLHttpRequest();
+        }else if(typeof ActiveXObject != 'undefined'){
+            var versions = [
+                'MSXML2.XMLHttp.6.0',
+                'MSXML2.XMLHttp.3.0',
+                'MSXML2.XMLHttp'
+            ];
+            for (var i = 0; i < versions.length; i ++) {
+                try {
+                    return new ActiveXObject(version[i]);
+                } catch (e) {
+
+                }
+            }
+        }else {
+            throw new Error('您的浏览器不支持XHR对象！');
+        }
+    }
+    function test() {
+        $.pos
+        var xmlhttp=createXHR();
+        xmlhttp.onreadystatechange=function () {
+            if (xmlhttp.readyState==4&&xmlhttp.status==200)
+            {
+                alert(xmlhttp.responseText);
+            }
+        }
+        var url=
+        xmlhttp.open("GET","/WebProject/AjaxServlet?name=1",true)
+        xmlhttp.send("name=1");
+    }
+    function req() {
+        var url="/WebProject/AjaxServlet";
+        $.post(url, { userID: 1}, function(data, status) {
+            console.log(data);
+            var list = $.parseJSON(data);
+            console.log("list = " + list);
+            var listStr = "";
+            list.forEach(function(user) {
+                listStr += "userid : " + user.userId + ",<br> account : " + user.userNumber + ",<br> password : " + user.userPassword + ",<br> userStatus : " + user.userStatus + "<br><br>";
+            });
+            $("#div_content").html("status = " + status + ",<br> data = <br><br>" + listStr);
+        });
+    }
+</script>
+</html>
